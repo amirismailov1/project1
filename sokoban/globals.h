@@ -203,11 +203,8 @@ void load_next_level();
 void unload_level();
 
 
-// PLAYER_H
-extern std::shared_ptr<player> current_player;
 
-void spawn_player(size_t row, size_t column);
-void move(int dx, int dy);
+
 
 // GRAPHICS_H
 

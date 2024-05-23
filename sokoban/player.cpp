@@ -27,7 +27,7 @@ void player::move(int dx, int dy) {
         }
         char &target_cell = current_level->get_cell(static_cast<size_t>(target_row), static_cast<size_t>(target_column));
         if (target_cell == FLOOR || target_cell == GOAL) {
-            cell = (cell == BOX) ? FLOOR : GOAL;
+            cell = cell == BOX ? FLOOR : GOAL;
             if (target_cell == FLOOR) {
                 target_cell = BOX;
             } else {
@@ -56,3 +56,4 @@ void player::move(int dx, int dy) {
         }
     }
 }
+

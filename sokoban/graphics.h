@@ -81,8 +81,15 @@ void draw_loaded_level() {
             char cell = current_level->get_cell(row, column);
             switch (cell) {
                 case FLOOR:
+                case GOAL:
+                case BOX:
+                case BOX_ON_GOAL:
                     draw_image(floor_image, x, y, cell_size);
+                default:
                     break;
+            }
+            switch (cell) {
+
                 case WALL:
                     draw_image(wall_image, x, y, cell_size);
                     break;
