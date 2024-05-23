@@ -102,6 +102,9 @@
 		<Unit filename="C:/Users/User/Desktop/sokoban/sokoban/levels.h">
 			<Option target="sokoban"/>
 		</Unit>
+		<Unit filename="C:/Users/User/Desktop/sokoban/sokoban/parser.cpp">
+			<Option target="sokoban"/>
+		</Unit>
 		<Unit filename="C:/Users/User/Desktop/sokoban/sokoban/player.cpp">
 			<Option target="sokoban"/>
 		</Unit>

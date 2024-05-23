@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/User/Desktop/sokoban/sokoban/level.cpp" "CMakeFiles/sokoban.dir/level.cpp.obj" "gcc" "CMakeFiles/sokoban.dir/level.cpp.obj.d"
+  "C:/Users/User/Desktop/sokoban/sokoban/parser.cpp" "CMakeFiles/sokoban.dir/parser.cpp.obj" "gcc" "CMakeFiles/sokoban.dir/parser.cpp.obj.d"
   "C:/Users/User/Desktop/sokoban/sokoban/player.cpp" "CMakeFiles/sokoban.dir/player.cpp.obj" "gcc" "CMakeFiles/sokoban.dir/player.cpp.obj.d"
   "C:/Users/User/Desktop/sokoban/sokoban/sokoban.cpp" "CMakeFiles/sokoban.dir/sokoban.cpp.obj" "gcc" "CMakeFiles/sokoban.dir/sokoban.cpp.obj.d"
   )

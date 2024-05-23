@@ -113,11 +113,27 @@ CMakeFiles/sokoban.dir/player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sokoban.dir/player.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\Desktop\sokoban\sokoban\player.cpp -o CMakeFiles\sokoban.dir\player.cpp.s
 
+CMakeFiles/sokoban.dir/parser.cpp.obj: CMakeFiles/sokoban.dir/flags.make
+CMakeFiles/sokoban.dir/parser.cpp.obj: CMakeFiles/sokoban.dir/includes_CXX.rsp
+CMakeFiles/sokoban.dir/parser.cpp.obj: C:/Users/User/Desktop/sokoban/sokoban/parser.cpp
+CMakeFiles/sokoban.dir/parser.cpp.obj: CMakeFiles/sokoban.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\User\Desktop\sokoban\sokoban\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sokoban.dir/parser.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sokoban.dir/parser.cpp.obj -MF CMakeFiles\sokoban.dir\parser.cpp.obj.d -o CMakeFiles\sokoban.dir\parser.cpp.obj -c C:\Users\User\Desktop\sokoban\sokoban\parser.cpp
+
+CMakeFiles/sokoban.dir/parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sokoban.dir/parser.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\Desktop\sokoban\sokoban\parser.cpp > CMakeFiles\sokoban.dir\parser.cpp.i
+
+CMakeFiles/sokoban.dir/parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sokoban.dir/parser.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\Desktop\sokoban\sokoban\parser.cpp -o CMakeFiles\sokoban.dir\parser.cpp.s
+
 # Object files for target sokoban
 sokoban_OBJECTS = \
 "CMakeFiles/sokoban.dir/sokoban.cpp.obj" \
 "CMakeFiles/sokoban.dir/level.cpp.obj" \
-"CMakeFiles/sokoban.dir/player.cpp.obj"
+"CMakeFiles/sokoban.dir/player.cpp.obj" \
+"CMakeFiles/sokoban.dir/parser.cpp.obj"
 
 # External object files for target sokoban
 sokoban_EXTERNAL_OBJECTS =
@@ -125,12 +141,13 @@ sokoban_EXTERNAL_OBJECTS =
 sokoban.exe: CMakeFiles/sokoban.dir/sokoban.cpp.obj
 sokoban.exe: CMakeFiles/sokoban.dir/level.cpp.obj
 sokoban.exe: CMakeFiles/sokoban.dir/player.cpp.obj
+sokoban.exe: CMakeFiles/sokoban.dir/parser.cpp.obj
 sokoban.exe: CMakeFiles/sokoban.dir/build.make
 sokoban.exe: vcpkg_installed/x64-windows/debug/lib/raylib.lib
 sokoban.exe: CMakeFiles/sokoban.dir/linkLibs.rsp
 sokoban.exe: CMakeFiles/sokoban.dir/objects1.rsp
 sokoban.exe: CMakeFiles/sokoban.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\User\Desktop\sokoban\sokoban\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable sokoban.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\User\Desktop\sokoban\sokoban\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable sokoban.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\sokoban.dir\link.txt --verbose=$(VERBOSE)
 	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file "C:/Users/User/.vcpkg-clion/vcpkg (1)/scripts/buildsystems/msbuild/applocal.ps1" -targetBinary C:/Users/User/Desktop/sokoban/sokoban/cmake-build-debug/sokoban.exe -installedDir C:/Users/User/Desktop/sokoban/sokoban/cmake-build-debug/vcpkg_installed/x64-windows/debug/bin -OutVariable out
 

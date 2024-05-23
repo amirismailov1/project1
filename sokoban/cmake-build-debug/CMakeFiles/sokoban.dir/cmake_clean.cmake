@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sokoban.dir/level.cpp.obj"
   "CMakeFiles/sokoban.dir/level.cpp.obj.d"
+  "CMakeFiles/sokoban.dir/parser.cpp.obj"
+  "CMakeFiles/sokoban.dir/parser.cpp.obj.d"
   "CMakeFiles/sokoban.dir/player.cpp.obj"
   "CMakeFiles/sokoban.dir/player.cpp.obj.d"
   "CMakeFiles/sokoban.dir/sokoban.cpp.obj"

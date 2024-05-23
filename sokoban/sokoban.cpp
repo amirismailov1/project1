@@ -3,10 +3,12 @@
 #include "globals.h"
 #include "levels.h"
 #include "player.h"
-
+#include <iostream>
+#include "level.h"
 #include "graphics.h"
 #include "images.h"
 #include "sounds.h"
+std::vector<level> parse_levels_from_file(const std::string& filename);
 
 void update_game() {
     switch (game_state) {
@@ -75,6 +77,16 @@ void draw_game() {
 }
 
 int main() {
+
+    try {
+        std::vector<level> levels = parse_levels_from_file("data/levels.sl");
+        // Теперь у нас есть вектор уровней, мы можем использовать их в игре
+    } catch (const std::exception& e) {
+        std::cerr << "Error: " << e.what() << std::endl;
+        return 1;
+    }
+
+
     SetConfigFlags(FLAG_VSYNC_HINT | FLAG_MSAA_4X_HINT);
     InitWindow(1024, 480, "Sokoban");
     SetTargetFPS(60);

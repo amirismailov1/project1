@@ -152,6 +152,30 @@ level.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sokoban.dir\build.make CMakeFiles/sokoban.dir/level.cpp.s
 .PHONY : level.cpp.s
 
+parser.obj: parser.cpp.obj
+.PHONY : parser.obj
+
+# target to build an object file
+parser.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sokoban.dir\build.make CMakeFiles/sokoban.dir/parser.cpp.obj
+.PHONY : parser.cpp.obj
+
+parser.i: parser.cpp.i
+.PHONY : parser.i
+
+# target to preprocess a source file
+parser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sokoban.dir\build.make CMakeFiles/sokoban.dir/parser.cpp.i
+.PHONY : parser.cpp.i
+
+parser.s: parser.cpp.s
+.PHONY : parser.s
+
+# target to generate assembly for a file
+parser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sokoban.dir\build.make CMakeFiles/sokoban.dir/parser.cpp.s
+.PHONY : parser.cpp.s
+
 player.obj: player.cpp.obj
 .PHONY : player.obj
 
@@ -212,6 +236,9 @@ help:
 	@echo ... level.obj
 	@echo ... level.i
 	@echo ... level.s
+	@echo ... parser.obj
+	@echo ... parser.i
+	@echo ... parser.s
 	@echo ... player.obj
 	@echo ... player.i
 	@echo ... player.s
