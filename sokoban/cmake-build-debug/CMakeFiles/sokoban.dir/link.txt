@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\sokoban.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\ar.exe qc CMakeFiles\sokoban.dir/objects.a @CMakeFiles\sokoban.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\sokoban.dir/objects.a -Wl,--no-whole-archive -o sokoban.exe -Wl,--out-implib,libsokoban.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\sokoban.dir\linkLibs.rsp
